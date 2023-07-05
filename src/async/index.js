@@ -3,7 +3,7 @@ import {
   activityError,
   activitySuccess,
   setStatus,
-} from "../slices/activitySlice";
+} from "../features/activity/activitySlice";
 
 export const fetchActivity = () => (dispatch) => {
   const URL = "https://www.boredapi.com/api/activity";
