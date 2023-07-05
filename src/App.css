@@ -100,3 +100,24 @@ a:focus {
 .error {
   color: red;
 }
+
+.list {
+  margin-left: calc(50% - 10em);
+  margin-top: 2em;
+}
+
+.inspire {
+  margin-top: 2em;
+}
+
+.activity-button {
+  border: 2px solid var(--clr-primary);
+  border-radius: 5px;
+  background-color: var(--clr-secondary);
+  margin-left: calc(50% - 7em);
+  margin-top: 2em;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: var(--fs-500);
+  color: var(--clr-text);
+}
